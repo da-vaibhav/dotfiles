@@ -2,6 +2,7 @@
   "animation_enabled": true,
   "auto_complete": true,
   "auto_complete_cycle": true,
+  "auto_indent": true,
   "bold_folder_labels": true,
   "caret_style": "phase",
   "color_inactive_tabs": true,
@@ -13,8 +14,8 @@
   "folder_exclude_patterns":
   [
   ],
-  "font_face": "Menlo",
-  "font_size": 15,
+  "font_face": "Hack",
+  "font_size": 16,
   "highlight_line": true,
   "highlight_modified_tabs": true,
   "ignored_packages":
@@ -24,8 +25,8 @@
   [
   ],
   "indent_to_bracket": true,
-  "line_padding_bottom": 3,
-  "line_padding_top": 3,
+  "line_padding_bottom": 2,
+  "line_padding_top": 2,
   "match_brackets": true,
   "match_brackets_angle": true,
   "match_brackets_braces": true,
@@ -34,13 +35,13 @@
   "overlay_scroll_bars": "enabled",
   "remember_open_files": true,
   "remember_open_folders": true,
-  "save_on_focus_lost": true,
   "scroll_past_end": true,
   "scroll_speed": 2,
   "show_encoding": true,
   "show_full_path": false,
   "show_line_endings": true,
   "sidebar_large": true,
+  "spell_check": false,
   "status_bar_brighter": true,
   "tab_size": 2,
   "tabs_medium": true,
@@ -48,6 +49,7 @@
   "theme": "Material-Theme-Darker.sublime-theme",
   "translate_tabs_to_spaces": true,
   "tree_animation_enabled": true,
+  "trim_automatic_white_space": true,
   "trim_trailing_white_space_on_save": true,
   "word_wrap": true
 }
