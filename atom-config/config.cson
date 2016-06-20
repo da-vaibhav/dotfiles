@@ -1,0 +1,80 @@
+"*":
+  "activate-power-mode":
+    autoToggle: false
+    particles:
+      enabled: false
+    screenShake:
+      enabled: false
+  "atom-ternjs":
+    useSnippets: true
+    useSnippetsAndFunction: true
+  core:
+    customFileTypes:
+      "source.ini": [
+        ".buckconfig"
+        ".flowconfig"
+      ]
+      "source.json": [
+        ".arcconfig"
+        "BUCK.autodeps"
+      ]
+      "source.python": [
+        "BUCK"
+      ]
+    disabledPackages: [
+      "tree-view"
+      "minimap"
+      "atom-terminal"
+      "terminal-panel"
+      "atom-terminal-panel"
+    ]
+  editor:
+    backUpBeforeSaving: true
+    fontFamily: "Hack"
+    fontSize: 16
+    invisibles: {}
+    scrollPastEnd: true
+    showIndentGuide: true
+    softWrap: true
+    tabType: "soft"
+  "exception-reporting":
+    userId: "804263b6-bf7d-9124-6a26-28427590eef3"
+  "file-watcher":
+    promptWhenFileHasChangedOnDisk: false
+  linter: {}
+  nuclide:
+    installRecommendedPackages: true
+    "nuclide-home":
+      showHome: false
+    "nuclide-notifications":
+      whenFocused: true
+    "nuclide-objc":
+      enableAutomaticSquareBracketInsertion: true
+  "one-dark-ui": {}
+  react: {}
+  "rubocop-auto-correct":
+    autoRun: true
+    correctFile: true
+    debugMode: true
+    rubocopCommandPath: "/Users/vaibhav/.rvm/gems/ruby-2.2.0@gmr/wrappers/rubocop"
+  "split-diff":
+    diffWords: true
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
+    syncHorizontalScroll: true
+  "terminal-plus":
+    style:
+      fontFamily: "Hack"
+      fontSize: "14"
+      theme: "dracula"
+    toggles:
+      autoClose: true
+  "tool-bar":
+    position: "Left"
+    visible: false
+  welcome:
+    showOnStartup: false
+".coffee.jsx.source":
+  editor:
+    showInvisibles: true
