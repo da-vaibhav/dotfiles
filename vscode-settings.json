@@ -1,0 +1,69 @@
+// this one is used in windows, need to add and merge macOS settings
+{
+    "editor.fontFamily": "Fira Code, Hack, Consolas, 'Courier New', monospace",
+    "editor.tabSize": 4,
+    "editor.wordWrap": "off",
+    "editor.tabCompletion": true,
+    "editor.fontSize": 16,
+    "editor.renderWhitespace": "none",
+    "editor.formatOnPaste": false,
+    "editor.cursorStyle": "line",
+    "editor.renderIndentGuides": true,
+    "extensions.autoUpdate": true,
+    "files.trimTrailingWhitespace": true,
+    "eslint.options": {},
+    "emmet.syntaxProfiles": {},
+    "eslint.autoFixOnSave": false,
+    "workbench.colorCustomizations": {
+        "tab.activeBackground": "#282c34",
+        "activityBar.background": "#282c34",
+        "editorGroup.background": "#282c34",
+        "sideBar.background": "#282c34"
+    },
+    "workbench.iconTheme": "vscode-icons",
+    "files.associations": {
+        "*.jsx": "javascriptreact"
+    },
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": false
+    },
+    "editor.minimap.enabled": false,
+    "workbench.activityBar.visible": true,
+    "terminal.integrated.shell.windows": "",
+    "[markdown]": {
+        "editor.wordWrap": "on",
+        "editor.quickSuggestions": true
+    },
+    "editor.autoIndent": true,
+    "emmet.useNewEmmet": true,
+    "editor.formatOnSave": false,
+    "auto-close-tag.activationOnLanguage": [
+        "html",
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "plaintext",
+        "markdown"
+    ],
+    "auto-close-tag.enableAutoCloseTag": true,
+    "auto-close-tag.enableAutoCloseSelfClosingTag": true,
+    "editor.fontLigatures": true,
+    "eslint.enable": true,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact"
+    ],
+    "eslint.run": "onSave",
+    "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}${separator}${appName}",
+    "todohighlight.isEnable": true,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.confirmOnExit": true,
+    "editor.lineNumbers": "on",
+    "workbench.colorTheme": "One Dark Pro",
+    "eslint.nodePath": "",
+    "window.zoomLevel": 0,
+    "workbench.panel.location": "bottom"
+}
